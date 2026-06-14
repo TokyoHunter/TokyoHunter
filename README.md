@@ -6,22 +6,6 @@
 
 ---
 
-## whoami
-
-Just a student who loves coding and hacking.
-
-<div align="center">
-
-| | |
-|:---:|:---|
-| <img src="https://img.shields.io/badge/-Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" width="90"/> | [@weareunity5831](https://t.me/weareunity5831) |
-| <img src="https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=gmail&logoColor=white" width="90"/> | amirrezarashidi5831ar@gmail.com |
-| <img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white" width="90"/> | [github.com/TokyoHunter](https://github.com/TokyoHunter) |
-
-
-
----
-
 ## skills
 
 #### security & tools
@@ -45,6 +29,23 @@ Just a student who loves coding and hacking.
 ![PortSwigger](https://img.shields.io/badge/PortSwigger-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
 ![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=flat-square&logo=tryhackme&logoColor=white)
 
+----
+
+## whoami
+
+Just a student who loves coding and hacking.
+
+<div align="center">
+
+
+|                                                              |                                                          |
+| :----------------------------------------------------------: | :------------------------------------------------------- |
+| <img src="https://img.shields.io/badge/-Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" width="90"/> | [@weareunity5831](https://t.me/weareunity5831)           |
+| <img src="https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=gmail&logoColor=white" width="90"/> | amirrezarashidi5831ar@gmail.com                          |
+| <img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white" width="90"/> | [github.com/TokyoHunter](https://github.com/TokyoHunter) |
+
+
+
 ---
 
 ## owasp 1000h
@@ -67,7 +68,6 @@ Just a student who loves coding and hacking.
 ---
 
 <div align="center">
-
-![footer](./fun-footer.svg)
+<img src="./cat.gif" height="250">
 
 </div>
