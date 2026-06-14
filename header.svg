@@ -1,0 +1,113 @@
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New',monospace">
+<defs>
+  <style>
+    @keyframes glitch {
+      0%,100%{transform:translate(0)}
+      18%{transform:translate(-3px,1px)}
+      20%{transform:translate(3px,-1px)}
+      22%{transform:translate(0)}
+      78%{transform:translate(0)}
+      80%{transform:translate(2px,2px)}
+      82%{transform:translate(-2px,-1px)}
+      84%{transform:translate(0)}
+    }
+    @keyframes glitchR {
+      0%,17%,21%,100%{opacity:0}
+      18%,20%{opacity:0.7}
+    }
+    @keyframes glitchB {
+      0%,79%,83%,100%{opacity:0}
+      80%,82%{opacity:0.7}
+    }
+    @keyframes scan {
+      0%{transform:translateY(-30px)}
+      100%{transform:translateY(230px)}
+    }
+    @keyframes blink {
+      0%,100%{opacity:1}50%{opacity:0}
+    }
+    @keyframes fadein {
+      from{opacity:0;transform:translateY(8px)}
+      to{opacity:1;transform:translateY(0)}
+    }
+    @keyframes dash {
+      to{stroke-dashoffset:-20}
+    }
+    .main{animation:glitch 5s infinite}
+    .ghost-r{fill:#ff3366;opacity:0;animation:glitchR 5s infinite}
+    .ghost-b{fill:#00e5ff;opacity:0;animation:glitchB 5s infinite}
+    .scan-bar{animation:scan 4s linear infinite}
+    .cursor{animation:blink 1s step-end infinite}
+    .sub{animation:fadein 0.8s 0.3s both}
+    .tags{animation:fadein 0.8s 0.6s both}
+    .dash-line{stroke-dasharray:4 4;animation:dash 0.8s linear infinite}
+  </style>
+</defs>
+
+<rect width="800" height="200" fill="#080d13"/>
+
+<!-- grid -->
+<g stroke="#00b4d8" stroke-width="0.4" opacity="0.1">
+  <line x1="0" y1="50" x2="800" y2="50"/>
+  <line x1="0" y1="100" x2="800" y2="100"/>
+  <line x1="0" y1="150" x2="800" y2="150"/>
+  <line x1="133" y1="0" x2="133" y2="200"/>
+  <line x1="266" y1="0" x2="266" y2="200"/>
+  <line x1="400" y1="0" x2="400" y2="200"/>
+  <line x1="533" y1="0" x2="533" y2="200"/>
+  <line x1="666" y1="0" x2="666" y2="200"/>
+</g>
+
+<!-- scan line -->
+<rect width="800" height="28" fill="url(#sg)" class="scan-bar"/>
+<defs>
+  <linearGradient id="sg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#00e5ff" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#00e5ff" stop-opacity="0.06"/>
+    <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+
+<!-- corner brackets -->
+<path d="M16,16 L16,34 M16,16 L34,16" stroke="#00e5ff" stroke-width="1.5" fill="none" opacity="0.6"/>
+<path d="M784,16 L784,34 M784,16 L766,16" stroke="#00e5ff" stroke-width="1.5" fill="none" opacity="0.6"/>
+<path d="M16,184 L16,166 M16,184 L34,184" stroke="#00e5ff" stroke-width="1.5" fill="none" opacity="0.6"/>
+<path d="M784,184 L784,166 M784,184 L766,184" stroke="#00e5ff" stroke-width="1.5" fill="none" opacity="0.6"/>
+
+<!-- dashed border top/bottom -->
+<line x1="40" y1="16" x2="760" y2="16" stroke="#00e5ff" stroke-width="0.5" opacity="0.3" class="dash-line"/>
+<line x1="40" y1="184" x2="760" y2="184" stroke="#00e5ff" stroke-width="0.5" opacity="0.3" class="dash-line"/>
+
+<!-- status dot -->
+<circle cx="28" cy="28" r="4" fill="#00ff88"/>
+
+<!-- glitch title layers -->
+<text x="400" y="95" text-anchor="middle" font-size="48" font-weight="900" class="ghost-r" dx="-3" dy="1">AMIRREZA RASHIDI</text>
+<text x="400" y="95" text-anchor="middle" font-size="48" font-weight="900" class="ghost-b" dx="3" dy="-1">AMIRREZA RASHIDI</text>
+<text x="400" y="95" text-anchor="middle" font-size="48" font-weight="900" fill="#00e5ff" class="main">AMIRREZA RASHIDI</text>
+
+<!-- subtitle -->
+<text x="400" y="128" text-anchor="middle" font-size="11" fill="#607d8b" letter-spacing="5" class="sub">OFFENSIVE SECURITY · BUG HUNTER · CE STUDENT</text>
+
+<!-- bottom tags -->
+<g class="tags">
+  <rect x="190" y="148" width="100" height="18" rx="3" fill="#0d1f2d"/>
+  <text x="240" y="161" text-anchor="middle" font-size="9" fill="#00b4d8" letter-spacing="2">WEB SECURITY</text>
+
+  <rect x="300" y="148" width="80" height="18" rx="3" fill="#0d1f2d"/>
+  <text x="340" y="161" text-anchor="middle" font-size="9" fill="#00b4d8" letter-spacing="2">LINUX</text>
+
+  <rect x="390" y="148" width="80" height="18" rx="3" fill="#0d1f2d"/>
+  <text x="430" y="161" text-anchor="middle" font-size="9" fill="#00b4d8" letter-spacing="2">OWASP</text>
+
+  <rect x="480" y="148" width="100" height="18" rx="3" fill="#0d1f2d"/>
+  <text x="530" y="161" text-anchor="middle" font-size="9" fill="#00b4d8" letter-spacing="2">BUG BOUNTY</text>
+</g>
+
+<!-- status line -->
+<text x="24" y="188" font-size="8" fill="#1a3a50" letter-spacing="1">SYS:ACTIVE_RECON</text>
+<text x="660" y="188" font-size="8" fill="#1a3a50" letter-spacing="1">IR · 35.68N 51.38E</text>
+
+<!-- cursor -->
+<rect x="388" y="173" width="5" height="9" fill="#00e5ff" class="cursor"/>
+</svg>
