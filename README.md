@@ -1,173 +1,199 @@
 <div align="center">
 
+# 🛡️ AMIRREZA RASHIDI
+### Security Operations Center Dashboard
 
-<!-- Animated header banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=AmirReza%20Rashidi&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Cybersecurity%20Learner%20%7C%20Creative%20Coder%20%7C%20Ethical%20Hacker-in-Training&descAlignY=58&descSize=16&animation=fadeIn" />
-
-<!-- Typing animation -->
-<a href="https://github.com/amirreza-rashidi">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Computer+Engineering+Student+%F0%9F%8E%93;Cybersecurity+Enthusiast+%F0%9F%94%90;Java+%26+C%2B%2B+Developer+%F0%9F%92%BB;Breaking+things+ethically+%F0%9F%98%89" alt="Typing SVG" />
-</a>
-
-<br/>
-
-<!-- Social badges -->
-[![Email](https://img.shields.io/badge/Email-amirrezarashidi5831ar%40gmail.com-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amirrezarashidi5831ar@gmail.com)
-[![Telegram](https://img.shields.io/badge/Telegram-@weareunity5831-8B5CF6?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/weareunity5831)
-[![GitHub](https://img.shields.io/badge/GitHub-amirreza--rashidi-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amirreza-rashidi)
-
-<br/>
+```text
+[ SYSTEM ONLINE ]
+Computer Engineering Student
+Cybersecurity Learner
+Future Security Researcher
+```
 
 </div>
 
 ---
 
-## 🧬 `whoami`
-
-```bash
-$ whoami
-```
+# 🎯 MISSION CONTROL
 
 ```yaml
-┌──────────────────────────────────────────────────────┐
-│                                                      │
-│   Name      :  AmirReza Rashidi                      │
-│   Role      :  Computer Engineering Student          │
-│   Focus     :  Cybersecurity · Java · C++            │
-│   Location  :  Iran 🇮🇷                               │
-│   Mission   :  Build secure software & master        │
-│               ethical hacking from the ground up     │
-│                                                      │
-└──────────────────────────────────────────────────────┘
+Primary Objective:
+  Become a skilled Security Researcher
+
+Current Focus:
+  - OWASP Web Security
+  - Bug Bounty Hunting
+  - Linux
+  - Networking
+  - Secure Software Development
+
+Status:
+  Learning • Building • Breaking Ethically
 ```
 
-> _"I believe in learning by **building** and **breaking** — ethically, of course. 😉"_
+---
+
+# 🚀 OWASP 1000 HOUR CHALLENGE
+
+<table>
+<tr>
+<td width="70%">
+
+### Progress
+
+```text
+[██████░░░░░░░░░░░░░░░░░] 250 / 1000 Hours
+
+Remaining: 750 Hours
+Completion: 25%
+```
+
+</td>
+
+<td width="30%">
+
+### Target
+
+🎯 1000 Hours
+
+📚 OWASP
+
+🔐 Web Security
+
+</td>
+</tr>
+</table>
+
+> Update the numbers whenever you complete more learning hours.
 
 ---
 
-## 🛡️ About Me
+# 📡 SECURITY STATUS
 
-- 🔐 Deeply passionate about **ethical hacking** and **system security**
-- 💡 Always cooking something fun — desktop apps, bots, automation tools
-- 🧱 I learn tech from the ground up — no shortcuts, only fundamentals
-- 🎯 Goal: Become a recognized name in **cybersecurity** and **ethical hacking**
-- ⚡ Currently diving deep into **penetration testing** and **network security**
+| Domain | Status |
+|----------|--------|
+| Linux | 🟢 Active |
+| C++ | 🟢 Active |
+| Java | 🟢 Active |
+| OWASP Top 10 | 🟢 Active |
+| Web Security | 🟡 Training |
+| Bug Bounty | 🟡 Growing |
+| Reverse Engineering | 🔴 Future Quest |
 
 ---
 
-## 🛠️ Tech Stack
+# 📈 GITHUB ANALYTICS
 
 <div align="center">
 
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=TokyoHunter&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TokyoHunter&layout=compact&theme=tokyonight&hide_border=true"/>
+
+<br><br>
+
+<img width="75%" src="https://streak-stats.demolab.com?user=TokyoHunter&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+---
+
+# 🌳 SKILL PROGRESSION
+
+```text
+Cybersecurity
+│
+├── Reconnaissance        ████████░░ 80%
+├── Linux                 ████████░░ 80%
+├── Networking            ███████░░░ 70%
+├── Web Security          ██████░░░░ 60%
+├── OWASP Methodology     ██████░░░░ 60%
+├── Bug Bounty            ████░░░░░░ 40%
+├── Python                ███░░░░░░░ 30%
+└── Reverse Engineering   █░░░░░░░░░ 10%
+```
+
+---
+
+# 🏆 SECURITY TIMELINE
+
+```text
+2025 → Started Cybersecurity Journey
+
+2025 → Completed OWASP Top 10 Training
+
+2025 → Solved PortSwigger Labs
+
+2025 → Solved HTB Machines
+
+2025 → First Verified Vulnerability Report
+
+2025 → Became Teaching Assistant
+
+2026 → Building Public Security Portfolio
+
+2026 → Seeking Junior Security Opportunities
+```
+
+---
+
+# 🔧 TOOLBOX
 
 ### Languages
+- C++
+- Java
+- Bash
+- Python (Learning)
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![Python](https://img.shields.io/badge/Python-🔜_Soon-3776AB?style=for-the-badge&logo=python&logoColor=white)
+### Platforms
+- Linux
+- Kali Linux
+- Git
+- GitHub
+- Qt
 
-### Tools & Frameworks
-
-![Qt](https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-
-### Focus Areas
-
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-FF4444?style=for-the-badge&logo=hackthebox&logoColor=white)
-![Ethical Hacking](https://img.shields.io/badge/Ethical_Hacking-1A1A2E?style=for-the-badge&logo=metasploit&logoColor=white)
-![Network Security](https://img.shields.io/badge/Network_Security-8B5CF6?style=for-the-badge&logo=cisco&logoColor=white)
-
-
-</div>
+### Interests
+- Web Security
+- Bug Bounty
+- Secure Coding
+- System Programming
 
 ---
 
-## 📊 GitHub Stats
+# 🌐 CONTACT
 
-<div align="center">
+```text
+Email
+└── amirrezarashidi5831ar@gmail.com
 
+Telegram
+└── @weareunity5831
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=amirreza-rashidi&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=A78BFA&text_color=ffffff"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amirreza-rashidi&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=ffffff"/>
-
-<br/>
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=amirreza-rashidi&theme=tokyonight&hide_border=true&background=0D1117&stroke=A78BFA&ring=A78BFA&fire=FF6B6B&currStreakLabel=A78BFA)](https://git.io/streak-stats)
-
-</div>
-
----
-
-## 🗺️ Learning Roadmap
-
-```
-[▓▓▓▓▓▓▓▓▓░░]  Java & JavaFX         → GUI apps, automation
-[▓▓▓▓▓▓▓░░░░]  C++ & Qt              → System-level tools
-[▓▓▓▓▓▓░░░░░]  Linux & Bash          → Pentesting & scripting
-[▓▓▓▓░░░░░░░]  Network Security      → Protocols, enumeration
-[▓▓░░░░░░░░░]  Python                → Hacking tools, scripting
-[▓░░░░░░░░░░]  Web App Security      → OWASP Top 10
+GitHub
+└── https://github.com/TokyoHunter
 ```
 
 ---
 
-## 🧩 What I Build
+<details>
+<summary>⚠️ Classified Information</summary>
 
-| Type                 | Examples                                     |
-| -------------------- | -------------------------------------------- |
-| 🖥️ **Desktop Apps**   | GUI tools built with Swing / JavaFX / Qt     |
-| 🤖 **Bots**           | Automation bots for various platforms        |
-| 🔧 **CLI Tools**      | C++ system utilities and scripts             |
-| 🔐 **Security Tools** | Ethical hacking helpers & pentesting scripts |
+```text
+Dream:
 
----
-
-## 📬 Let's Connect
-
-<div align="center">
-
-
-| 📧 Email                                                      | 💬 Telegram                                     | 🌐 GitHub                                                |
-| ------------------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------------- |
-| [amirrezarashidi5831ar@gmail.com](mailto:amirrezarashidi5831ar@gmail.com) | [@weareunity5831](https://t.me/weareunity5831) | [amirreza-rashidi](https://github.com/amirreza-rashidi) |
-
-<br/>
-
-<!-- Profile views counter -->
-![Profile Views](https://komarev.com/ghpvc/?username=amirreza-rashidi&style=for-the-badge&color=8B5CF6&label=PROFILE+VIEWS)
-
-</div>
+Build tools.
+Find vulnerabilities.
+Help secure systems.
+Leave a mark in cybersecurity.
+```
+</details>
 
 ---
 
-## 🐍 Snake eating my contributions
+```bash
+root@github:~$ logout
 
-<div align="center">
+SOC Dashboard terminated.
 
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/amirreza-rashidi/amirreza-rashidi/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/amirreza-rashidi/amirreza-rashidi/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/amirreza-rashidi/amirreza-rashidi/output/github-snake.svg" />
-</picture>
-
-
-</div>
-
----
-
-<div align="center">
-
-
-<!-- Footer wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&animation=fadeIn"/>
-
-</div>
-
-|      |      |
-| ---- | ---- |
-|      |      |
-|      |      |
-|      |      |
+See you in the next commit.
+```
