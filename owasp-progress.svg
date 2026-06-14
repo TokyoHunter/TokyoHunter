@@ -1,0 +1,69 @@
+<svg viewBox="0 0 800 110" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New',monospace">
+<defs>
+  <style>
+    @keyframes fillBar {
+      from { width: 0 }
+      to   { width: 192px }
+    }
+    @keyframes countUp {
+      0%  { opacity: 0 }
+      10% { opacity: 1 }
+    }
+    @keyframes glow {
+      0%,100% { opacity: 0.6 }
+      50%      { opacity: 1 }
+    }
+    @keyframes dash {
+      to { stroke-dashoffset: -16 }
+    }
+    .bar   { animation: fillBar 2.2s cubic-bezier(.4,0,.2,1) both }
+    .num   { animation: countUp 0.4s 2s both }
+    .pulse { animation: glow 2s ease-in-out infinite }
+    .dash  { stroke-dasharray: 4 4; animation: dash 0.8s linear infinite }
+  </style>
+</defs>
+
+<rect width="800" height="110" fill="#080d13"/>
+
+<!-- top dashed line -->
+<line x1="20" y1="18" x2="780" y2="18" stroke="#00e5ff" stroke-width="0.5" opacity="0.25" class="dash"/>
+
+<!-- left label block -->
+<text x="30" y="48" font-size="9" fill="#00e5ff" letter-spacing="3" opacity="0.7">OWASP 1000H CHALLENGE</text>
+<text x="30" y="72" font-size="34" font-weight="900" fill="#ffffff">250</text>
+<text x="96" y="72" font-size="13" fill="#334e61">/ 1000 hrs</text>
+<text x="30" y="90" font-size="9" fill="#00ff88" letter-spacing="2">25% COMPLETE</text>
+
+<!-- progress track -->
+<rect x="220" y="38" width="530" height="28" rx="3" fill="#0a1824" stroke="#00e5ff" stroke-width="0.5" stroke-opacity="0.2"/>
+
+<!-- segment markers -->
+<line x1="352" y1="38" x2="352" y2="66" stroke="#0d2030" stroke-width="1"/>
+<line x1="485" y1="38" x2="485" y2="66" stroke="#0d2030" stroke-width="1"/>
+<line x1="617" y1="38" x2="617" y2="66" stroke="#0d2030" stroke-width="1"/>
+
+<!-- fill -->
+<clipPath id="cp"><rect x="220" y="38" width="530" height="28" rx="3"/></clipPath>
+<g clip-path="url(#cp)">
+  <rect x="220" y="38" height="28" rx="3" fill="#004d73" class="bar"/>
+  <rect x="220" y="38" height="28" rx="3" fill="#00e5ff" opacity="0.15" class="bar"/>
+</g>
+
+<!-- glow edge -->
+<rect x="409" y="36" width="3" height="32" rx="1" fill="#00e5ff" opacity="0.9" class="pulse"/>
+
+<!-- marker labels -->
+<text x="352" y="82" text-anchor="middle" font-size="8" fill="#1a3a50">250</text>
+<text x="485" y="82" text-anchor="middle" font-size="8" fill="#1a3a50">500</text>
+<text x="617" y="82" text-anchor="middle" font-size="8" fill="#1a3a50">750</text>
+<text x="750" y="82" text-anchor="middle" font-size="8" fill="#1a3a50">1000</text>
+
+<!-- current marker -->
+<text x="414" y="82" text-anchor="middle" font-size="8" fill="#00e5ff" class="num">◀ 250h</text>
+
+<!-- remaining -->
+<text x="750" y="48" text-anchor="middle" font-size="8" fill="#1a3a50">750h left</text>
+
+<!-- bottom dashed line -->
+<line x1="20" y1="100" x2="780" y2="100" stroke="#00e5ff" stroke-width="0.5" opacity="0.25" class="dash"/>
+</svg>

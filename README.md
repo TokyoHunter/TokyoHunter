@@ -6,19 +6,40 @@
 
 ---
 
-```json
-{
-  "handle"  : "TokyoHunter",
-  "name"    : "AmirReza Rashidi",
-  "role"    : "Computer Engineering Student",
-  "target"  : "Security Research & Penetration Testing",
-  "status"  : "open to junior cybersec roles — 2026"
-}
+## whoami
+
+```
+AmirReza Rashidi  ·  TokyoHunter
+Computer Engineering Student  ·  Iran
+Target → Security Research & Penetration Testing
+Open to junior cybersec roles — 2026
 ```
 
 ---
 
 ## skills
+
+#### security & systems
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
+![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white)
+
+#### languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+
+#### platforms
+![Hack The Box](https://img.shields.io/badge/HackTheBox-9FEF00?style=flat-square&logo=hackthebox&logoColor=black)
+![PortSwigger](https://img.shields.io/badge/PortSwigger-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
+![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=flat-square&logo=tryhackme&logoColor=white)
+
+---
+
+## proficiency
 
 ```
 Linux & Shell        ████████░░  80%
@@ -32,22 +53,13 @@ Python               ███░░░░░░░  30%
 
 ---
 
-## owasp 1000h challenge
+## owasp 1000h
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  progress
-████░░░░░░░░░░░░░░░░░░░░░░░░░░░░  250 / 1000 hrs  [25%]
-```
+<div align="center">
 
----
+![owasp](./owasp-progress.svg)
 
-## labs
-
-| platform | status |
-|---|---|
-| PortSwigger Web Security | 🟢 active |
-| Hack The Box | 🟢 active |
-| OWASP Labs | 🟢 active |
+</div>
 
 ---
 
@@ -59,8 +71,8 @@ Python               ███░░░░░░░  30%
 + HTB machines compromised
 + first verified vulnerability reported
 + appointed teaching assistant
-- bug bounty reward         [pending]
-- security research paper   [pending]
+- bug bounty reward        [pending]
+- security research paper  [pending]
 ```
 
 ---
@@ -74,8 +86,10 @@ Python               ███░░░░░░░  30%
 
 ---
 
-```
-email     → amirrezarashidi5831ar@gmail.com
-telegram  → @weareunity5831
-github    → github.com/TokyoHunter
-```
+## contact
+
+<div align="center">
+
+![contact](./contact.svg)
+
+</div>

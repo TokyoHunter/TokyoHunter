@@ -1,0 +1,47 @@
+<svg viewBox="0 0 800 100" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New',monospace">
+<defs>
+  <style>
+    @keyframes dash { to { stroke-dashoffset: -16 } }
+    @keyframes fadein { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:translateY(0)} }
+    .dash { stroke-dasharray:4 4; animation:dash 0.8s linear infinite }
+    .r1 { animation: fadein 0.5s 0.1s both }
+    .r2 { animation: fadein 0.5s 0.25s both }
+    .r3 { animation: fadein 0.5s 0.4s both }
+  </style>
+</defs>
+
+<rect width="800" height="100" fill="#080d13"/>
+<line x1="20" y1="14" x2="780" y2="14" stroke="#00e5ff" stroke-width="0.5" opacity="0.2" class="dash"/>
+<line x1="20" y1="92" x2="780" y2="92" stroke="#00e5ff" stroke-width="0.5" opacity="0.2" class="dash"/>
+
+<!-- col headers -->
+<text x="46" y="32" font-size="8" fill="#1a4a60" letter-spacing="2">CHANNEL</text>
+<text x="340" y="32" font-size="8" fill="#1a4a60" letter-spacing="2">HANDLE</text>
+
+<!-- divider -->
+<line x1="20" y1="36" x2="780" y2="36" stroke="#00e5ff" stroke-width="0.3" opacity="0.15"/>
+<!-- col divider -->
+<line x1="310" y1="14" x2="310" y2="92" stroke="#00e5ff" stroke-width="0.3" opacity="0.1"/>
+
+<!-- row 1 — email -->
+<g class="r1">
+  <rect x="20" y="37" width="290" height="18" fill="#00e5ff" fill-opacity="0.03"/>
+  <rect x="310" y="37" width="470" height="18" fill="#00e5ff" fill-opacity="0.03"/>
+  <text x="46" y="50" font-size="10" fill="#00b4d8" letter-spacing="1">✉  EMAIL</text>
+  <text x="340" y="50" font-size="10" fill="#8ab8cc">amirrezarashidi5831ar@gmail.com</text>
+</g>
+
+<!-- row 2 — telegram -->
+<g class="r2">
+  <text x="46" y="68" font-size="10" fill="#00b4d8" letter-spacing="1">✈  TELEGRAM</text>
+  <text x="340" y="68" font-size="10" fill="#8ab8cc">@weareunity5831</text>
+</g>
+
+<!-- row 3 — github -->
+<g class="r3">
+  <rect x="20" y="73" width="290" height="18" fill="#00e5ff" fill-opacity="0.03"/>
+  <rect x="310" y="73" width="470" height="18" fill="#00e5ff" fill-opacity="0.03"/>
+  <text x="46" y="86" font-size="10" fill="#00b4d8" letter-spacing="1">⌥  GITHUB</text>
+  <text x="340" y="86" font-size="10" fill="#8ab8cc">github.com/TokyoHunter</text>
+</g>
+</svg>
