@@ -1,162 +1,177 @@
 <div align="center">
 
-# 🛡️ AMIRREZA RASHIDI
-### Security Operations Center Dashboard
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:000000,30:1a0033,70:6d28d9,100:00e5ff&text=AMIRREZA%20RASHIDI&fontColor=ffffff&fontSize=52&animation=fadeIn&fontAlignY=38&desc=Cybersecurity%20Learner%20%7C%20OWASP%20Explorer%20%7C%20Future%20Security%20Researcher&descAlignY=60"/>
 
-```text
-[ SYSTEM ONLINE ]
-Computer Engineering Student
-Cybersecurity Learner
-Future Security Researcher
-```
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=800&color=00FFE0&center=true&vCenter=true&width=900&lines=%24+whoami;AmirReza+Rashidi;Computer+Engineering+Student;Cybersecurity+Learner;OWASP+1000+Hour+Challenge;Building+%26+Breaking+Ethically"/>
 
 </div>
 
 ---
 
-# 🎯 MISSION CONTROL
+# ⚡ SECURITY OPERATIONS CENTER
 
-```yaml
-Primary Objective:
-  Become a skilled Security Researcher
-
-Current Focus:
-  - OWASP Web Security
-  - Bug Bounty Hunting
-  - Linux
-  - Networking
-  - Secure Software Development
-
-Status:
-  Learning • Building • Breaking Ethically
+```text
+╔════════════════════════════════════════════════════════════╗
+║ SYSTEM STATUS     : ONLINE                                ║
+║ THREAT ANALYSIS   : ACTIVE                                ║
+║ CURRENT TARGET    : OWASP 1000 HOURS                      ║
+║ SECURITY MODE     : LEARNING + RESEARCH                   ║
+╚════════════════════════════════════════════════════════════╝
 ```
-
----
-
-# 🚀 OWASP 1000 HOUR CHALLENGE
 
 <table>
 <tr>
-<td width="70%">
+<td width="50%">
 
-### Progress
+## 🎯 Mission
 
-```text
-[██████░░░░░░░░░░░░░░░░░] 250 / 1000 Hours
+```yaml
+Name: AmirReza Rashidi
 
-Remaining: 750 Hours
-Completion: 25%
+Role:
+  Computer Engineering Student
+
+Focus:
+  - Web Security
+  - OWASP
+  - Linux
+  - Networking
+  - Bug Bounty
+
+Objective:
+  Become a Security Researcher
 ```
 
 </td>
 
-<td width="30%">
+<td width="50%">
 
-### Target
+## 🔥 Current Quest
 
-🎯 1000 Hours
+```text
+OWASP 1000 HOUR CHALLENGE
 
-📚 OWASP
+█████░░░░░░░░░░░░░░░░░ 25%
 
-🔐 Web Security
+250 / 1000 Hours
+
+Remaining:
+750 Hours
+```
 
 </td>
 </tr>
 </table>
 
-> Update the numbers whenever you complete more learning hours.
-
 ---
 
-# 📡 SECURITY STATUS
-
-| Domain | Status |
-|----------|--------|
-| Linux | 🟢 Active |
-| C++ | 🟢 Active |
-| Java | 🟢 Active |
-| OWASP Top 10 | 🟢 Active |
-| Web Security | 🟡 Training |
-| Bug Bounty | 🟡 Growing |
-| Reverse Engineering | 🔴 Future Quest |
-
----
-
-# 📈 GITHUB ANALYTICS
+# 📡 LIVE DASHBOARD
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=TokyoHunter&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=TokyoHunter&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TokyoHunter&layout=compact&theme=tokyonight&hide_border=true"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TokyoHunter&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117"/>
 
 <br><br>
 
-<img width="75%" src="https://streak-stats.demolab.com?user=TokyoHunter&theme=tokyonight&hide_border=true"/>
+<img width="80%" src="https://streak-stats.demolab.com?user=TokyoHunter&theme=tokyonight&hide_border=true"/>
 
 </div>
 
 ---
 
-# 🌳 SKILL PROGRESSION
+# 🌳 SECURITY SKILL TREE
 
 ```text
 Cybersecurity
 │
-├── Reconnaissance        ████████░░ 80%
-├── Linux                 ████████░░ 80%
-├── Networking            ███████░░░ 70%
-├── Web Security          ██████░░░░ 60%
-├── OWASP Methodology     ██████░░░░ 60%
-├── Bug Bounty            ████░░░░░░ 40%
-├── Python                ███░░░░░░░ 30%
-└── Reverse Engineering   █░░░░░░░░░ 10%
+├── Linux Fundamentals      ████████░░ 80%
+├── Networking              ███████░░░ 70%
+├── Recon                   ████████░░ 80%
+├── Web Security            ██████░░░░ 60%
+├── OWASP Methodology       ██████░░░░ 60%
+├── Bug Bounty              ████░░░░░░ 40%
+├── Python                  ███░░░░░░░ 30%
+├── Reverse Engineering     █░░░░░░░░░ 10%
+└── Malware Analysis        ░░░░░░░░░░ 0%
 ```
 
 ---
 
-# 🏆 SECURITY TIMELINE
+# 🏆 ACHIEVEMENTS
 
 ```text
-2025 → Started Cybersecurity Journey
-
-2025 → Completed OWASP Top 10 Training
-
-2025 → Solved PortSwigger Labs
-
-2025 → Solved HTB Machines
-
-2025 → First Verified Vulnerability Report
-
-2025 → Became Teaching Assistant
-
-2026 → Building Public Security Portfolio
-
-2026 → Seeking Junior Security Opportunities
+[✓] OWASP Top 10 Learning
+[✓] PortSwigger Labs
+[✓] Hack The Box Practice
+[✓] First Verified Vulnerability
+[✓] Teaching Assistant
+[ ] OWASP 1000 Hours
+[ ] First Bug Bounty Reward
+[ ] Security Research Publication
 ```
 
 ---
 
-# 🔧 TOOLBOX
+# 🧪 LAB STATUS
+
+| Platform | Progress |
+|----------|----------|
+| PortSwigger | 🟢 Active |
+| Hack The Box | 🟢 Active |
+| OWASP Labs | 🟢 Active |
+| TryHackMe | 🟡 Optional |
+| Reverse Engineering | 🔴 Locked |
+
+---
+
+# 💻 TECH ARSENAL
 
 ### Languages
-- C++
-- Java
-- Bash
-- Python (Learning)
+
+![Java](https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=openjdk)
+![C++](https://img.shields.io/badge/C++-000000?style=for-the-badge&logo=cplusplus)
+![Bash](https://img.shields.io/badge/Bash-000000?style=for-the-badge&logo=gnubash)
+![Python](https://img.shields.io/badge/Python-Learning-000000?style=for-the-badge&logo=python)
 
 ### Platforms
-- Linux
-- Kali Linux
-- Git
-- GitHub
-- Qt
 
-### Interests
-- Web Security
-- Bug Bounty
-- Secure Coding
-- System Programming
+![Linux](https://img.shields.io/badge/Linux-111111?style=for-the-badge&logo=linux)
+![Kali](https://img.shields.io/badge/Kali-111111?style=for-the-badge&logo=kalilinux)
+![Qt](https://img.shields.io/badge/Qt-111111?style=for-the-badge&logo=qt)
+![Git](https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git)
+
+---
+
+# 📜 SECURITY TIMELINE
+
+```text
+2025 ─ Started Cybersecurity Journey
+
+2025 ─ Completed OWASP Top 10
+
+2025 ─ Solved PortSwigger Labs
+
+2025 ─ Solved HTB Machines
+
+2025 ─ First Verified Vulnerability
+
+2025 ─ Became Teaching Assistant
+
+2026 ─ Building Security Portfolio
+
+2026 ─ Seeking Junior Security Opportunities
+```
+
+---
+
+# 🐍 CONTRIBUTION ACTIVITY
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TokyoHunter/TokyoHunter/output/github-snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/TokyoHunter/TokyoHunter/output/github-snake.svg">
+</picture>
 
 ---
 
@@ -170,30 +185,41 @@ Telegram
 └── @weareunity5831
 
 GitHub
-└── https://github.com/TokyoHunter
+└── github.com/TokyoHunter
 ```
 
 ---
 
 <details>
-<summary>⚠️ Classified Information</summary>
+<summary>🔒 CLASSIFIED FILE</summary>
 
 ```text
 Dream:
 
-Build tools.
-Find vulnerabilities.
+Build useful tools.
+
+Find real vulnerabilities.
+
 Help secure systems.
-Leave a mark in cybersecurity.
+
+Leave a meaningful mark
+in the cybersecurity world.
 ```
+
 </details>
 
 ---
 
+<div align="center">
+
+![](https://komarev.com/ghpvc/?username=TokyoHunter&style=for-the-badge&color=blueviolet)
+
 ```bash
 root@github:~$ logout
 
-SOC Dashboard terminated.
+SOC terminated.
 
 See you in the next commit.
 ```
+
+</div>
