@@ -8,18 +8,33 @@
 
 ## whoami
 
-```
-AmirReza Rashidi  ·  TokyoHunter
-Computer Engineering Student  ·  Iran
-Target → Security Research & Penetration Testing
-Open to junior cybersec roles — 2026
-```
+<div align="center">
+
+### `AmirReza Rashidi` · `TokyoHunter`
+
+**Computer Engineering Student** &nbsp;·&nbsp; Iran
+
+Offensive Security · Bug Hunting · Penetration Testing
+
+*Open to junior cybersec roles — 2026*
+
+</div>
+
+<div align="center">
+
+| | |
+|:---:|:---|
+| <img src="https://img.shields.io/badge/-Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" width="90"/> | [@weareunity5831](https://t.me/weareunity5831) |
+| <img src="https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=gmail&logoColor=white" width="90"/> | amirrezarashidi5831ar@gmail.com |
+| <img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white" width="90"/> | [github.com/TokyoHunter](https://github.com/TokyoHunter) |
+
+</div>
 
 ---
 
 ## skills
 
-#### security & systems
+#### security & tools
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
@@ -39,20 +54,6 @@ Open to junior cybersec roles — 2026
 
 ---
 
-## proficiency
-
-```
-Linux & Shell        ████████░░  80%
-Reconnaissance       ████████░░  80%
-Networking           ███████░░░  70%
-Web Exploitation     ██████░░░░  60%
-OWASP Methodology    ██████░░░░  60%
-Bug Bounty           ████░░░░░░  40%
-Python               ███░░░░░░░  30%
-```
-
----
-
 ## owasp 1000h
 
 <div align="center">
@@ -60,20 +61,6 @@ Python               ███░░░░░░░  30%
 ![owasp](./owasp-progress.svg)
 
 </div>
-
----
-
-## log
-
-```diff
-+ OWASP Top 10 completed
-+ PortSwigger labs solved
-+ HTB machines compromised
-+ first verified vulnerability reported
-+ appointed teaching assistant
-- bug bounty reward        [pending]
-- security research paper  [pending]
-```
 
 ---
 
@@ -86,10 +73,8 @@ Python               ███░░░░░░░  30%
 
 ---
 
-## contact
-
 <div align="center">
 
-![contact](./contact.svg)
+![footer](./fun-footer.svg)
 
 </div>

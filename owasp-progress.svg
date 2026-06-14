@@ -1,69 +1,64 @@
-<svg viewBox="0 0 800 110" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New',monospace">
+<svg viewBox="0 0 800 130" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New',monospace">
 <defs>
   <style>
-    @keyframes fillBar {
-      from { width: 0 }
-      to   { width: 192px }
-    }
-    @keyframes countUp {
-      0%  { opacity: 0 }
-      10% { opacity: 1 }
-    }
-    @keyframes glow {
-      0%,100% { opacity: 0.6 }
-      50%      { opacity: 1 }
-    }
-    @keyframes dash {
-      to { stroke-dashoffset: -16 }
-    }
-    .bar   { animation: fillBar 2.2s cubic-bezier(.4,0,.2,1) both }
-    .num   { animation: countUp 0.4s 2s both }
-    .pulse { animation: glow 2s ease-in-out infinite }
-    .dash  { stroke-dasharray: 4 4; animation: dash 0.8s linear infinite }
+    @keyframes fillBar { from{width:0} to{width:193px} }
+    @keyframes glow { 0%,100%{opacity:0.5} 50%{opacity:1} }
+    @keyframes dash { to{stroke-dashoffset:-16} }
+    @keyframes fadein { from{opacity:0} to{opacity:1} }
+    .bar  { animation:fillBar 2.4s 0.3s cubic-bezier(.4,0,.2,1) both }
+    .pulse{ animation:glow 1.8s ease-in-out infinite }
+    .dash { stroke-dasharray:4 4; animation:dash 0.8s linear infinite }
+    .fi   { animation:fadein 0.6s 2.6s both }
   </style>
 </defs>
 
-<rect width="800" height="110" fill="#080d13"/>
+<rect width="800" height="130" fill="#080d13"/>
+<line x1="20" y1="16" x2="780" y2="16" stroke="#00e5ff" stroke-width="0.6" opacity="0.3" class="dash"/>
+<line x1="20" y1="118" x2="780" y2="118" stroke="#00e5ff" stroke-width="0.6" opacity="0.3" class="dash"/>
 
-<!-- top dashed line -->
-<line x1="20" y1="18" x2="780" y2="18" stroke="#00e5ff" stroke-width="0.5" opacity="0.25" class="dash"/>
+<!-- left block -->
+<text x="30" y="46" font-size="9" fill="#00e5ff" letter-spacing="3" opacity="0.8">OWASP 1000H CHALLENGE</text>
+<text x="30" y="80" font-size="42" font-weight="900" fill="#ffffff">250</text>
+<text x="108" y="80" font-size="15" fill="#2a5a72">/ 1000 hrs</text>
+<text x="30" y="100" font-size="9" fill="#00ff88" letter-spacing="2">25% — 750 hrs remaining</text>
+<text x="30" y="114" font-size="8" fill="#1a3a50" letter-spacing="1">target: 4 months to complete</text>
 
-<!-- left label block -->
-<text x="30" y="48" font-size="9" fill="#00e5ff" letter-spacing="3" opacity="0.7">OWASP 1000H CHALLENGE</text>
-<text x="30" y="72" font-size="34" font-weight="900" fill="#ffffff">250</text>
-<text x="96" y="72" font-size="13" fill="#334e61">/ 1000 hrs</text>
-<text x="30" y="90" font-size="9" fill="#00ff88" letter-spacing="2">25% COMPLETE</text>
+<!-- track -->
+<rect x="230" y="44" width="548" height="36" rx="4" fill="#0a1824"/>
+<rect x="230" y="44" width="548" height="36" rx="4" fill="none" stroke="#00e5ff" stroke-width="1" stroke-opacity="0.35"/>
 
-<!-- progress track -->
-<rect x="220" y="38" width="530" height="28" rx="3" fill="#0a1824" stroke="#00e5ff" stroke-width="0.5" stroke-opacity="0.2"/>
+<!-- segment ticks -->
+<line x1="367" y1="44" x2="367" y2="80" stroke="#0d2535" stroke-width="1.5"/>
+<line x1="504" y1="44" x2="504" y2="80" stroke="#0d2535" stroke-width="1.5"/>
+<line x1="641" y1="44" x2="641" y2="80" stroke="#0d2535" stroke-width="1.5"/>
 
-<!-- segment markers -->
-<line x1="352" y1="38" x2="352" y2="66" stroke="#0d2030" stroke-width="1"/>
-<line x1="485" y1="38" x2="485" y2="66" stroke="#0d2030" stroke-width="1"/>
-<line x1="617" y1="38" x2="617" y2="66" stroke="#0d2030" stroke-width="1"/>
+<!-- segment labels inside track -->
+<text x="298" y="67" text-anchor="middle" font-size="10" fill="#0f2d42">250h</text>
+<text x="435" y="67" text-anchor="middle" font-size="10" fill="#0f2d42">500h</text>
+<text x="572" y="67" text-anchor="middle" font-size="10" fill="#0f2d42">750h</text>
+<text x="709" y="67" text-anchor="middle" font-size="10" fill="#0f2d42">1000h</text>
 
 <!-- fill -->
-<clipPath id="cp"><rect x="220" y="38" width="530" height="28" rx="3"/></clipPath>
+<clipPath id="cp"><rect x="230" y="44" width="548" height="36" rx="4"/></clipPath>
 <g clip-path="url(#cp)">
-  <rect x="220" y="38" height="28" rx="3" fill="#004d73" class="bar"/>
-  <rect x="220" y="38" height="28" rx="3" fill="#00e5ff" opacity="0.15" class="bar"/>
+  <rect x="230" y="44" height="36" fill="#005580" class="bar"/>
+  <rect x="230" y="44" height="36" fill="#00e5ff" fill-opacity="0.12" class="bar"/>
+  <!-- shimmer stripe -->
+  <rect x="230" y="44" width="40" height="36" fill="url(#sh)" class="bar"/>
 </g>
+<defs>
+  <linearGradient id="sh" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#00e5ff" stop-opacity="0"/>
+    <stop offset="60%" stop-color="#00e5ff" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+  </linearGradient>
+</defs>
 
-<!-- glow edge -->
-<rect x="409" y="36" width="3" height="32" rx="1" fill="#00e5ff" opacity="0.9" class="pulse"/>
+<!-- glow leading edge -->
+<rect x="420" y="42" width="4" height="40" rx="2" fill="#00e5ff" class="pulse bar" style="animation:fillBar 2.4s 0.3s cubic-bezier(.4,0,.2,1) both,glow 1.8s 2.7s ease-in-out infinite"/>
 
-<!-- marker labels -->
-<text x="352" y="82" text-anchor="middle" font-size="8" fill="#1a3a50">250</text>
-<text x="485" y="82" text-anchor="middle" font-size="8" fill="#1a3a50">500</text>
-<text x="617" y="82" text-anchor="middle" font-size="8" fill="#1a3a50">750</text>
-<text x="750" y="82" text-anchor="middle" font-size="8" fill="#1a3a50">1000</text>
-
-<!-- current marker -->
-<text x="414" y="82" text-anchor="middle" font-size="8" fill="#00e5ff" class="num">◀ 250h</text>
-
-<!-- remaining -->
-<text x="750" y="48" text-anchor="middle" font-size="8" fill="#1a3a50">750h left</text>
-
-<!-- bottom dashed line -->
-<line x1="20" y1="100" x2="780" y2="100" stroke="#00e5ff" stroke-width="0.5" opacity="0.25" class="dash"/>
+<!-- current label -->
+<g class="fi">
+  <text x="423" y="97" font-size="9" fill="#00e5ff" text-anchor="middle">▲ now</text>
+</g>
 </svg>
